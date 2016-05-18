@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58DD85D91CEC9EC60056DE40 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DD85D81CEC9EC60056DE40 /* CalculatorBrain.swift */; };
 		58EA26A51CEB5B4900F1D76D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EA26A41CEB5B4900F1D76D /* AppDelegate.swift */; };
 		58EA26A71CEB5B4900F1D76D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EA26A61CEB5B4900F1D76D /* ViewController.swift */; };
 		58EA26AA1CEB5B4900F1D76D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58EA26A81CEB5B4900F1D76D /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		58DD85D81CEC9EC60056DE40 /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 		58EA26A11CEB5B4900F1D76D /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58EA26A41CEB5B4900F1D76D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58EA26A61CEB5B4900F1D76D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				58EA26A61CEB5B4900F1D76D /* ViewController.swift */,
 				58EA26A81CEB5B4900F1D76D /* Main.storyboard */,
+				58DD85D81CEC9EC60056DE40 /* CalculatorBrain.swift */,
 				58EA26B61CEB5C8800F1D76D /* Supporting Files */,
 			);
 			path = Calculator;
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58DD85D91CEC9EC60056DE40 /* CalculatorBrain.swift in Sources */,
 				58EA26A71CEB5B4900F1D76D /* ViewController.swift in Sources */,
 				58EA26A51CEB5B4900F1D76D /* AppDelegate.swift in Sources */,
 			);
@@ -296,6 +300,7 @@
 				58EA26B51CEB5B4900F1D76D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
